@@ -1,10 +1,15 @@
 public class TestClass {
-    public double cam;
-    public double cammie;
+    private double cam;
+    private double cammie;
 
 
     public TestClass(String cameron) {
         this.cam = 1;
         this.cammie = 1.5;  
     }
+
+    public double ronnie(double cammie, double cam) {
+        return cammie * cam;
+    }
 }
+
