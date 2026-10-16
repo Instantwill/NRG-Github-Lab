@@ -8,6 +8,7 @@ public class TestClass {
         this.cammie = 1.5;  
     }
 
+    /** Multiplies the cammies **/
     public double ronnie(double cammie, double cam) {
         return cammie * cam;
     }
